@@ -5,9 +5,9 @@
     {"id":4, "nombre":"Iphone 13", "descripcion":"iPhone 13 128 GB recondicionado", "imagen":"https://cdn.ipadizate.com/2023/09/iphone-15-pro.png", "precio":2000, "stock":10, "categoria":"celulares"},
     {"id":5, "nombre":"Macos Movaje", "descripcion":"Macos 21 pulgadas core i5 8 GB", "imagen":"https://m.media-amazon.com/images/I/41U6wcD9rLL.jpg", "precio":1300, "stock":10, "categoria":"desktop"},
     {"id":6, "nombre":"iMac ", "descripcion":"iMac retina 4k intel core i5 8 GB", "imagen":"https://i.pinimg.com/originals/36/14/91/3614913a0a5208cd329b929ca8a005fb.jpg", "precio":100, "stock":10, "categoria":"desktop"},
-    {"id":7, "nombre":"Iphone 11", "descripcion":"AURICULAR GAMER LOGITECH G635", "imagen":"https://grupotecargentina.com/wp-content/uploads/2021/02/11.jpg", "precio":80, "stock":10, "categoria":"celulares"},
+    {"id":7, "nombre":"Iphone 11", "descripcion":"128 GB Pantalla LCD Liquid Retina HD de 6.1 pulgadas", "imagen":"https://grupotecargentina.com/wp-content/uploads/2021/02/11.jpg", "precio":3000, "stock":10, "categoria":"celulares"},
     {"id":8, "nombre":"Apple AirPods", "descripcion":"Apple Airpods 2", "imagen":"https://sgfm.elcorteingles.es/SGFM/dctm/MEDIA03/202301/27/00138545734485____7__640x640.jpg", "precio":500, "stock":10, "categoria":"accesorios"},
-    {"id":9, "nombre":"Iphone 11", "descripcion":"iPad con pantalla OLED híbridas", "imagen":"https://www.notebookcheck.org/fileadmin/Notebooks/News/_nc3/Ipad_pro_concept_hybrid_oled.jpeg", "precio":80, "stock":10, "categoria":"tablets"},
-    {"id":10, "nombre":"Apple AirPods", "descripcion":"Base de carga inalámbrica Apple", "imagen":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HQ3F2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1655340339553", "precio":300, "stock":10, "categoria":"accesorios"}
+    {"id":9, "nombre":"iPad 14", "descripcion":"iPad con pantalla OLED híbridas", "imagen":"https://www.notebookcheck.org/fileadmin/Notebooks/News/_nc3/Ipad_pro_concept_hybrid_oled.jpeg", "precio":8000, "stock":10, "categoria":"tablets"},
+    {"id":10, "nombre":"Apple Magsafe Qi", "descripcion":"Base de carga inalámbrica Apple", "imagen":"https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/HQ3F2?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1655340339553", "precio":1000, "stock":10, "categoria":"accesorios"}
     
 ]

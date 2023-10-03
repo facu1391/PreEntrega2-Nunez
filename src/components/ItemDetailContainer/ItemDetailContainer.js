@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom'; // Importa useParams solo una vez
+import { getFirestore, doc, getDoc } from 'firebase/firestore'
 import arrayProductos from '../../Json/arrayProductos.json';
 import ItemDetail from '../ItemDetail/ItemDetail';
 
