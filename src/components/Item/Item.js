@@ -6,11 +6,11 @@ const Item = ({ item }) => {
     <Link to={`/item/${item.id}`} className='text-decoration-none'>
       <div className='container'>
         <div className='card border-3' style={{ width: '20rem' }}>
-          <img src={item.imagen} className='card-img-top' alt={item.nombre} />
+          <img src={item.img} className='card-img-top' alt={item.title} />
           <div className='card-body text-center'>
-            <h5 className='card-title'>{item.nombre}</h5>
-            <p className='card-text'>{item.descripcion}</p>
-            <p className='card-text'>${item.precio}</p>
+            <h5 className='card-title'>{item.title}</h5>
+            <p className='card-text'>{item.description}</p>
+            <p className='card-text'>${item.price}</p>
           </div>
           <div className='card-footer'>
             <button className='btn btn-primary'>Agregar al carrito</button>
