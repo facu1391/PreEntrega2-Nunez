@@ -1,19 +1,19 @@
 import React from 'react';
-import {useCartContext} from '../../Context/CartContext';
+import { useCartContext } from '../../Context/CartContext';
+import { Link } from 'react-router-dom'; // Importa el componente Link de React Router
 
 export const CartWidget = () => {
   const {totalProducts, cart} = useCartContext();
-  const handleClick = () => {
-    console.log('Botón del carrito clickeado');
-  };
 
   return (
-    <button className="btn btn-primary" onClick={handleClick}>
-      <i className="bi bi-cart4"></i>
-      <span>{totalProducts() ||cart}</span>
-    </button>
+    <div>
+        <button className="btn btn-primary">
+          <i className="bi bi-cart4"></i>
+          <span>{totalProducts() ||cart}</span>
+        </button>
+    </div>
   );
-}
+};
 
 export default CartWidget;
 
