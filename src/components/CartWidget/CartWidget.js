@@ -1,16 +1,17 @@
 import React from 'react';
 import { useCartContext } from '../../Context/CartContext';
-import { Link } from 'react-router-dom'; // Importa el componente Link de React Router
 
-export const CartWidget = () => {
+const CartWidget = () => {
   const {totalProducts, cart} = useCartContext();
 
   return (
     <div>
-        <button className="btn btn-primary">
+       <button className="btn btn-primary position-relative">
           <i className="bi bi-cart4"></i>
-          <span>{totalProducts() ||cart}</span>
-        </button>
+          <span className={`position-absolute top-0 start-100 translate-middle badge bg-danger ${totalProducts() > 0 ? 'visible' : 'invisible'}`}>
+            {totalProducts() || cart}
+          </span>
+      </button>
     </div>
   );
 };
